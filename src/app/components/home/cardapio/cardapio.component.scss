@@ -1,0 +1,70 @@
+.cardapio{
+    width: 100%;
+    height: 90vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.verMais{
+    position: relative;
+    padding-left: 80%;
+    padding-bottom: 20px;
+    
+}
+
+.items{
+    background-color: #F9F9F9;
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+
+.imgCard{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.card{
+    cursor: pointer;
+    width: 30%;
+}
+.card:hover{
+    translate: 0 -5px;
+    box-shadow: -2px 2px 20px rgb(155, 155, 155);
+}
+
+.titleCard{
+    margin-left: 60px;
+    padding-bottom: 5px;
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: x-large;
+}
+.containerPrice{
+    height: 40px;
+    font-family: 'roboto';
+    font-weight: 900;
+    background-color: #ff4d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerPrice h3{
+    
+    font-family: 'roboto';
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}

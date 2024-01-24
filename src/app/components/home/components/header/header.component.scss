@@ -1,0 +1,44 @@
+$primary-color:#282828;
+$secondary-color:white;
+
+.header{
+    position: fixed;
+    background-color: $primary-color;
+    padding-left: 100px;
+    z-index: 1;
+    justify-content: space-between;
+}
+span{
+    color: $secondary-color;
+    font-family: 'roboto',sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+
+    
+}
+ul button{
+    color: $secondary-color;
+    background-color: $primary-color;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+ul button:hover{
+    background-color: #3D3D3D;
+}
+
+
+ul .active{
+    color: #ff4d00;
+    border-bottom-color: #ff4d00;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}

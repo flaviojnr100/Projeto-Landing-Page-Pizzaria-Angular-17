@@ -1,0 +1,28 @@
+<div class="cardapio" id="cardapio">
+    <div class="verMais">
+        <h2>Ver mais</h2>
+    </div>
+    <div class="items">
+        @for(food of foods; track food.name){
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-title class="titleCard">
+                        {{food.name}}
+                    </mat-card-title>
+                </mat-card-header>
+                
+                <mat-card-content>
+                    <div>
+                        <img class="imgCard" [src]=food.url/>
+                    </div>
+                    
+                </mat-card-content>
+                <mat-card-footer class="price">
+                    <div class="containerPrice">
+                        <h3>{{food.price | currency:'BRL':'symbol':'1.2-2' }}</h3>
+                    </div>
+                </mat-card-footer>
+            </mat-card>
+        }
+    </div>
+</div>
