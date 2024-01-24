@@ -1,27 +1,5 @@
 # ProjetoAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://private-user-images.githubusercontent.com/45611121/299148085-cc044c03-6182-4932-b345-316fce5e4caa.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTk5MjQsIm5iZiI6MTcwNjA1OTYyNCwicGF0aCI6Ii80NTYxMTEyMS8yOTkxNDgwODUtY2MwNDRjMDMtNjE4Mi00OTMyLWIzNDUtMzE2ZmNlNWU0Y2FhLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTI0VDAxMjcwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFhNjI1ZTg5Mjk1OGRmZjNhOWFjMThjM2M3Mjg2MjIwNDM5MjgzMDk2ODY1NjkzM2JmYzA1MmM1YjQyZTMxNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.huKUoME0ULdNcCXQ4e-7diJui54xyTbdxFD7SMBWpRM"/>
+<img src="https://private-user-images.githubusercontent.com/45611121/299148131-75e1772c-c0d7-4f8c-ba5c-d4fb78d55996.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjAwMjYsIm5iZiI6MTcwNjA1OTcyNiwicGF0aCI6Ii80NTYxMTEyMS8yOTkxNDgxMzEtNzVlMTc3MmMtYzBkNy00ZjhjLWJhNWMtZDRmYjc4ZDU1OTk2LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTI0VDAxMjg0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI2YmZhMzYyNGQ5Njk5OGEwYWMwZDBkODNjZmNiMWJiOTQ4ZDdlZDA3ZmZiYmEyMTdkNThkODI0MzM5YTNkNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.4w8QjvcH-T7v_f5iA4EOLlCb1s_X83cTPeQIB8Z-oU0"/>
+<img src="https://private-user-images.githubusercontent.com/45611121/299147893-7e945003-0c8f-4f9d-a738-292550a3cd43.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTk5NzUsIm5iZiI6MTcwNjA1OTY3NSwicGF0aCI6Ii80NTYxMTEyMS8yOTkxNDc4OTMtN2U5NDUwMDMtMGM4Zi00ZjlkLWE3MzgtMjkyNTUwYTNjZDQzLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTI0VDAxMjc1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI5ZDMwNzRkMDk5YWRhNDJlMDE1OTE5NDFiNzQ0Mzk1ZTYyN2Q5MWQ5YzYxMjU2Mzg5OTBmOTUyY2Q0MmU1MTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.wYxU1S9H44HHph6oFOxNWGp5IfS6kDF6bSbHQR63JDc"/>
