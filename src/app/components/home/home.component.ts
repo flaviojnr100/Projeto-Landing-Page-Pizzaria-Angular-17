@@ -5,6 +5,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -13,5 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  
+  
+  
+  
 }

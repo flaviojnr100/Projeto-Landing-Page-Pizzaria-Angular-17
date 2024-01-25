@@ -1,17 +1,24 @@
 import { Component, HostListener } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+
+
+
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [MatButtonModule,MatToolbarModule],
+  imports: [MatButtonModule,MatToolbarModule,MatIconModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  
+ 
   activeSection:string = 'home';
+
+
+
 
 @HostListener('window:scroll',['$event'])
 onScroll(event:Event):void{
@@ -29,8 +36,6 @@ onScroll(event:Event):void{
     this.activeSection='sobre'
   }
   
-  console.log(this.activeSection)
-  console.log(sectionSobre)
   
 
 }

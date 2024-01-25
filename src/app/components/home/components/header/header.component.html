@@ -1,8 +1,18 @@
-<mat-toolbar class="header">
-    <a (click)="scrollTo('home')"><span>Pizzaria</span></a>
-    <ul>
-        <button  (click)="scrollTo('home')" [class.active]="activeSection === 'home'"  mat-flat-button>Home</button>
-        <button  (click)="scrollTo('cardapio')" [class.active]="activeSection === 'cardapio'" mat-flat-button>Cardapio</button>
-        <button  (click)="scrollTo('sobre')" [class.active]="activeSection === 'sobre'" mat-flat-button>Sobre</button>
-    </ul>
-</mat-toolbar>
+<nav>
+    <mat-toolbar class="header">
+    
+  
+        <button mat-icon-button class="button-mobile" aria-label="Example icon-button with menu icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <a (click)="scrollTo('home')"><span>Pizzaria</span></a>
+        <ul class="menu-simples">
+            <button  (click)="scrollTo('home')" [class.active]="activeSection === 'home'"  mat-flat-button>Home</button>
+            <button  (click)="scrollTo('cardapio')" [class.active]="activeSection === 'cardapio'" mat-flat-button>Cardapio</button>
+            <button  (click)="scrollTo('sobre')" [class.active]="activeSection === 'sobre'" mat-flat-button>Sobre</button>
+        </ul>
+    
+    
+    </mat-toolbar>
+
+</nav>

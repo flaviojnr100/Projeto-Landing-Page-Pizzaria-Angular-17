@@ -25,3 +25,10 @@ li a{
 li a:visited{
     color: $secondary-color;
 }
+
+@media screen and (max-width:750px) {
+    div{
+        margin-top: 90px;
+        
+    }
+}

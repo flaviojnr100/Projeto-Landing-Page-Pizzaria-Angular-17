@@ -16,7 +16,7 @@ span{
     cursor: pointer;
     
 }
-ul{
+.menu-simples{
     list-style: none;
     display: flex;
     gap: 30px;
@@ -24,21 +24,71 @@ ul{
 
     
 }
-ul button{
+.button-mobile{
+    visibility: hidden;
+    display: none;
+    color: white;
+}
+.menu-simples button{
     color: $secondary-color;
     background-color: $primary-color;
     font-family: 'roboto';
     font-weight: bold;
 }
 
-ul button:hover{
+.menu-simples button:hover{
     background-color: #3D3D3D;
 }
 
 
-ul .active{
+.menu-simples .active{
     color: #ff4d00;
     border-bottom-color: #ff4d00;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
+
+@media screen and (min-width:481px) and (max-width:750px) {
+
+    .menu-simples{
+        visibility: hidden;
+        display: none;
+    }
+    .button-mobile{
+        visibility: visible;
+        display: block;
+        position: absolute;
+        left: 20px;
+    }
+
+    .header{
+        justify-content: space-evenly;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .menu-simples{
+        visibility: hidden;
+        display: none;
+    }
+    .button-mobile{
+        visibility: visible;
+        display: block;
+        position: absolute;
+        left: 20px;
+    }
+
+    .header{
+        justify-content: space-between;
+    }
+
+    .header a span{
+        margin-left: 110%;
+    }
+    
+    
+} 

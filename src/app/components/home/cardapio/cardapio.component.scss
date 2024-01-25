@@ -44,8 +44,9 @@
 }
 
 .titleCard{
-    margin-left: 60px;
-    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
     font-family: 'roboto';
     font-weight: 900;
     font-size: x-large;
@@ -67,4 +68,60 @@
     font-size: x-large;
     font-weight: bolder;
     color: white;
+}
+
+@media screen and (min-width:481px) and (max-width:750px) {
+
+    .cardapio{
+        height: 200vh;
+       
+    }
+
+    .items{
+        
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card{
+        width: 60%;
+    }
+   
+    .verMais{
+        position: relative;
+        padding-left: 70%;
+        padding-bottom: 10px;
+        
+    }
+    
+}
+@media screen and (max-width:480px) {
+
+    .cardapio{
+        height: 200vh;
+       
+    }
+
+    .items{
+        
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    .verMais{
+        position: relative;
+        padding-left: 70%;
+        padding-bottom: 10px;
+        
+    }
+    
+    
 }

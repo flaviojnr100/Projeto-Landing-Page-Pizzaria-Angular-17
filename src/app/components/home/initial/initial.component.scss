@@ -18,17 +18,15 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
     
 }
 
 .description{
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
-.image{
-    margin-right: 50px;
-}
+
 
 .active{
     animation: fadeAnimationLeft ease 0.9s;
@@ -113,5 +111,27 @@ p{
     100%{
         opacity: 100%;
         translate: 5px 0;
+    }
+}
+
+@media screen and (max-width:750px){
+    
+    .initial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .description{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .image{
+        margin-left: 10%;
+    }
+    .image img{
+        width: 90%;
     }
 }
